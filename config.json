@@ -1,0 +1,134 @@
+{
+    "problem_title": "a + b",
+    "problem_type": "stdio",
+    "checker": "tcmp.cc",
+    "checker_language": "cpp11",
+    "validator": "validator.cc",
+    "validator_language": "cpp11",
+    "limits": {
+        "time": 1000,
+        "memory": 134217728,
+        "factor": {
+            "py3": {
+                "time": 0,
+                "memory": 268435456
+            }
+        }
+    },
+    "enable_language": [],
+    "statements": [
+        {
+            "name": "statement.md",
+            "label": "한국어"
+        },
+        {
+            "name": "statement_en.md",
+            "label": "English"
+        }
+    ],
+    "solutions": [
+        {
+            "name": "solution.cc",
+            "language": "cpp11",
+            "type": "MCS"
+        },
+        {
+            "name": "solution_wa.cc",
+            "language": "cpp11",
+            "type": "WA"
+        },
+        {
+            "name": "solution.py",
+            "language": "py3",
+            "type": "AC"
+        },
+        {
+            "name": "solution_heuristic.cc",
+            "language": "cpp11",
+            "type": "AC/WA"
+        }
+    ],
+    "generators": [
+        {
+            "name": "generator_manual.py",
+            "language": "py3",
+            "alias": "manual"
+        },
+        {
+            "name": "generator_without_testlib.py",
+            "language": "py3",
+            "alias": "random_py"
+        },
+        {
+            "name": "generator.cc",
+            "language": "cpp11",
+            "alias": "random_cc"
+        }
+    ],
+    "genscript": [
+        {
+            "script": "manual 1",
+            "description": "예제로 사용될 데이터 1번입니다.",
+            "is_example": true,
+            "only_deploy": false
+        },
+        {
+            "script": "manual 2",
+            "description": "예제로 사용될 데이터 2번입니다.",
+            "is_example": true,
+            "only_deploy": false
+        },
+        {
+            "script": "random_py 1 9 1 9",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_py 1 9 1 9",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_py 1 9 1 9 _",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_py 1 9 1 9 __",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_cc 1 9 1 9",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_cc 1 9 1 9",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_cc 1 9 1 9 _",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        },
+        {
+            "script": "random_cc 1 9 1 9 __",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
+        }
+    ],
+    "versions": {
+        "config": 1,
+        "repository": 1
+    }
+}
