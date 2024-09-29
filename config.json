@@ -45,68 +45,7 @@
             "alias": "random_cc"
         }
     ],
-    "genscript": [
-        {
-            "script": "manual 1",
-            "description": "예제로 사용될 데이터 1번입니다.",
-            "is_example": true,
-            "only_deploy": false
-        },
-        {
-            "script": "manual 2",
-            "description": "예제로 사용될 데이터 2번입니다.",
-            "is_example": true,
-            "only_deploy": false
-        },
-        {
-            "script": "random_py 1 9 1 9",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        },
-        {
-            "script": "random_py 1 9 1 9",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        },
-        {
-            "script": "random_py 1 9 1 9 _",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        },
-        {
-            "script": "random_py 1 9 1 9 __",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        },
-        {
-            "script": "random_cc 1 9 1 9",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        },
-        {
-            "script": "random_cc 1 9 1 9",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        },
-        {
-            "script": "random_cc 1 9 1 9 _",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        },
-        {
-            "script": "random_cc 1 9 1 9 __",
-            "description": "",
-            "is_example": false,
-            "only_deploy": false
-        }
-    ],
+    "genscript": [],
     "versions": {
         "config": 1,
         "repository": 1
