@@ -29,7 +29,7 @@
     "solutions": [
         {
             "name": "solution.cc",
-            "language": "cpp11",
+            "language": "cpp17",
             "type": "MCS"
         },
         {
