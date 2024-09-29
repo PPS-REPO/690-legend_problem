@@ -1,5 +1,5 @@
 {
-    "problem_title": "a + b",
+    "problem_title": "거대 도시 1",
     "problem_type": "stdio",
     "checker": "tcmp.cc",
     "checker_language": "cpp11",
