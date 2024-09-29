@@ -33,11 +33,6 @@
             "type": "MCS"
         },
         {
-            "name": "solution_heuristic.cc",
-            "language": "cpp11",
-            "type": "AC/WA"
-        },
-        {
             "name": "solution_wa.cc",
             "language": "cpp11",
             "type": "WA"
