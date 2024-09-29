@@ -6,7 +6,7 @@
     "validator": "validator.cc",
     "validator_language": "cpp11",
     "limits": {
-        "time": 1000,
+        "time": 4444,
         "memory": 134217728,
         "factor": {
             "py3": {
