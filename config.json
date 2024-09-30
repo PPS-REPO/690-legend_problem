@@ -59,6 +59,13 @@
             "description": "",
             "is_example": true,
             "only_deploy": false
+        },
+        {
+            "script": "generator_alias args1 args2 args3",
+            "subtask_group": "",
+            "description": "",
+            "is_example": false,
+            "only_deploy": false
         }
     ],
     "versions": {
