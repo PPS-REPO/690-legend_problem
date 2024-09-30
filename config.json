@@ -51,7 +51,7 @@
             "subtask_group": "subtask_1",
             "description": "",
             "is_example": false,
-            "only_deploy": true
+            "only_deploy": false
         }
     ],
     "versions": {
