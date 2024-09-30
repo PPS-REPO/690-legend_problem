@@ -49,5 +49,6 @@
     "versions": {
         "config": 1,
         "repository": 1
-    }
+    },
+    "subtask": true
 }
